@@ -1,0 +1,48 @@
+div{
+    border:1px solid black;
+    max-width: 25px;
+    margin-top: 40px;
+    margin-left:30%;
+
+}
+body{
+    background-color:#0A0908;
+}
+button{
+    background: none;
+    color:#ffa260;
+    border:2px solid;
+    padding:0.5em;
+    transition:color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+}
+button:hover{
+    border-color:#f1ff5c;
+    color:ghostwhite;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor:pointer;
+}
+button.down{
+    margin-top: 1em;
+}
+button.down:hover{
+    transform:translateY(0.25em);
+    box-shadow: 0 -0.5em -0.5em 0.4em #f1ff5c;
+
+}
+/* span{
+    border:1px solid #000080;
+    background-color:aliceblue;
+    margin-left:25%;
+    margin-top:45px;
+} */
+/* .float-container{
+    border:3px solid #f1ff5c;
+    padding:20px;
+}
+.float{
+    width:50%;
+    float:left;
+    padding:20px;
+    border:2px solid #ffffff;
+} */
