@@ -27,7 +27,7 @@ button.down{
 }
 button.down:hover{
     transform:translateY(0.25em);
-    box-shadow: 0 0.5em -0.5em 0.4em #f1ff5c;
+    box-shadow: 0 -0.5em -0.5em 0.4em #f1ff5c;
 
 }
 /* span{
