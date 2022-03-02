@@ -2,23 +2,28 @@ div{
     border:1px solid black;
     max-width: 25px;
     margin-top: 40px;
-    margin-left:30%;
+    margin-left: 5%; 
+    font-family: 'Signika Negative', sans-serif;
 
 }
 body{
     background-color:#0A0908;
+    margin:0%;
+    padding:0%;
+    border:0%;
 }
 button{
     background: none;
-    color:#ffa260;
+    color:#f1ff5c;
     border:2px solid;
-    padding:0.5em;
+    padding:0.68em;
     transition:color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+    margin-bottom: 10px;
 }
 button:hover{
-    border-color:#f1ff5c;
+    border-color:#064789;
     color:ghostwhite;
-    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    box-shadow: 0 0.5em 0.5em -0.4em #064789;
     transform: translateY(-0.25em);
     cursor:pointer;
 }
@@ -27,31 +32,49 @@ button.down{
 }
 button.down:hover{
     transform:translateY(0.25em);
-    box-shadow: 0 -0.5em -0.5em 0.4em #f1ff5c;
-    
+    box-shadow: 0 -0.5em -0.5em 0.4em #064789;
 
 }
-button:active{
-    border-color:#f1ff5c;
-    color:blue;
-    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
-    transform: translateY(-0.25em);
-    cursor:pointer;
+nav{
+    font-size: 30px;
+    color:ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 2px #064789, 0 0 1em #064789, 0 0 0.2em #f1ff5c;
+    padding-left: 50%;
+    padding-bottom: 0;
+}
+/* section{
+    padding:1px;
+    width:30%;
+    height:90%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: aqua;
+} */
+.buttons{
+    width:30%;
+    display:inline;
+    position:absolute;
+    left:15%;
 
 }
-/* span{
-    border:1px solid #000080;
-    background-color:aliceblue;
-    margin-left:25%;
-    margin-top:45px;
-} */
-/* .float-container{
-    border:3px solid #f1ff5c;
-    padding:20px;
+.image{
+    color:aliceblue;
+    position:fixed;
+    left:40%;
+    top:10%;
+    border:5px solid #064789;
+    padding:700px 300px;
+    margin-left:0;
+    width:51px;
+    background-color: #66C7F4;
+
 }
-.float{
-    width:50%;
-    float:left;
-    padding:20px;
-    border:2px solid #ffffff;
-} */
+span{
+    border:2px solid #064789;
+    padding:0.2em;
+    margin-top:5px;
+    font-size:30px;
+    color:ghostwhite;
+}
