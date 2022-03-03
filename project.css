@@ -1,6 +1,7 @@
+
 div{
     border:1px solid black;
-    max-width: 25px;
+    width: 25px;
     margin-top: 40px;
     margin-left: 5%; 
     font-family: 'Signika Negative', sans-serif;
@@ -19,6 +20,7 @@ button{
     padding:0.68em;
     transition:color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
     margin-bottom: 10px;
+    font-size: 0.5em;
 }
 button:hover{
     border-color:#064789;
@@ -40,7 +42,7 @@ nav{
     color:ghostwhite;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 1px 2px #064789, 0 0 1em #064789, 0 0 0.2em #f1ff5c;
-    padding-left: 50%;
+    padding-left: 40%;
     padding-bottom: 0;
 }
 
@@ -54,20 +56,59 @@ nav{
 }
 .image{
     color:aliceblue;
-    position:fixed;
+    position:absolute;
     left:40%;
     top:10%;
-    border:5px solid #064789;
-    padding:700px 300px;
     margin-left:0;
-    width:51px;
-    background-color: #66C7F4;
+    width:100px;
+    height:700px;
 
 }
 span{
     border:2px solid #064789;
-    padding:0.2em;
+    padding:0.24em;
     margin-top:5px;
-    font-size:30px;
+    font-size:1em;
     color:ghostwhite;
+}
+.greens{
+    border-radius: 50%;
+
+}
+.image>div{
+    border:5px solid #0A1045;
+    padding:5px;
+    height:160px;
+    width:110px;
+    box-sizing: border-box;
+    margin-top:30px;
+    text-align: center;
+    border-style:groove;
+    background-color:#064789;
+
+}
+.image>div>button:hover{
+    box-shadow: none;
+    transform: none;
+    transition: none;
+    margin:none;
+    border-color:#020100;
+}
+hr{
+    background-color:#064789;
+    width:120px;
+}
+.lift_floor{
+    margin-bottom: 4em;
+}
+.image>div>button{
+    padding:2px;
+    /* to increase the solid dot size inside elevator*/
+    width:20px;
+    height: 20px;
+    border-color: #020100;
+    color:#020100;
+    /* background-color:#53FF45;  for green*/
+    background-color: #A40606;
+    
 }
