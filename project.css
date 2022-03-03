@@ -1,114 +1,125 @@
-
-div{
-    border:1px solid black;
+div {
+    border: 1px solid black;
     width: 25px;
     margin-top: 40px;
-    margin-left: 5%; 
+    margin-left: 5%;
     font-family: 'Signika Negative', sans-serif;
+}
 
+body {
+    background-color: #0A0908;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
 }
-body{
-    background-color:#0A0908;
-    margin:0%;
-    padding:0%;
-    border:0%;
-}
-button{
+
+button {
     background: none;
-    color:#f1ff5c;
-    border:2px solid;
-    padding:0.68em;
-    transition:color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+    color: #f1ff5c;
+    border: 2px solid;
+    padding: 0.68em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
     margin-bottom: 10px;
     font-size: 0.5em;
 }
-button:hover{
-    border-color:#064789;
-    color:ghostwhite;
+
+button:hover {
+    border-color: #064789;
+    color: ghostwhite;
     box-shadow: 0 0.5em 0.5em -0.4em #064789;
     transform: translateY(-0.25em);
-    cursor:pointer;
+    cursor: pointer;
 }
-button.down{
+
+button.down {
     margin-top: 1em;
 }
-button.down:hover{
-    transform:translateY(0.25em);
-    box-shadow: 0 -0.5em -0.5em 0.4em #064789;
 
+button.down:hover {
+    transform: translateY(0.25em);
+    box-shadow: 0 -0.5em -0.5em 0.4em #064789;
 }
-nav{
+
+nav {
     font-size: 30px;
-    color:ghostwhite;
+    color: ghostwhite;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 1px 2px #064789, 0 0 1em #064789, 0 0 0.2em #f1ff5c;
     padding-left: 40%;
     padding-bottom: 0;
 }
 
-.buttons{
-    width:30%;
-    display:flex;
-    position:absolute;
-    left:15%;
+.buttons {
+    width: 30%;
+    display: flex;
+    position: absolute;
+    left: 15%;
     flex-direction: column-reverse;
+}
 
+.image {
+    color: aliceblue;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    margin-left: 0;
+    width: 100px;
+    height: 700px;
 }
-.image{
-    color:aliceblue;
-    position:absolute;
-    left:40%;
-    top:10%;
-    margin-left:0;
-    width:100px;
-    height:700px;
 
+span {
+    border: 2px solid #064789;
+    padding: 0.24em;
+    margin-top: 5px;
+    font-size: 1em;
+    color: ghostwhite;
 }
-span{
-    border:2px solid #064789;
-    padding:0.24em;
-    margin-top:5px;
-    font-size:1em;
-    color:ghostwhite;
-}
-.greens{
+
+.greens {
     border-radius: 50%;
-
 }
-.image>div{
-    border:5px solid #0A1045;
-    padding:5px;
-    height:160px;
-    width:110px;
+
+.image>div {
+    border: 5px solid #0A1045;
+    padding: 5px;
+    height: 160px;
+    width: 110px;
     box-sizing: border-box;
-    margin-top:30px;
+    margin-top: 30px;
     text-align: center;
-    border-style:groove;
-    background-color:#064789;
-
+    border-style: groove;
+    background-color: #064789;
 }
-.image>div>button:hover{
+
+.image>div>button:hover {
     box-shadow: none;
     transform: none;
     transition: none;
-    margin:none;
-    border-color:#020100;
+    margin: none;
+    border-color: #020100;
 }
-hr{
-    background-color:#064789;
-    width:120px;
+
+hr {
+    background-color: #064789;
+    width: 120px;
 }
-.lift_floor{
+
+.lift_floor {
     margin-bottom: 4em;
 }
-.image>div>button{
-    padding:2px;
+
+.image>div>button {
+    padding: 2px;
     /* to increase the solid dot size inside elevator*/
-    width:20px;
+    width: 20px;
     height: 20px;
     border-color: #020100;
-    color:#020100;
+    color: #020100;
     /* background-color:#53FF45;  for green*/
     background-color: #A40606;
-    
+}
+
+.image {
+    display: flex;
+    flex-direction: column-reverse;
 }
