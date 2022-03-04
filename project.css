@@ -126,3 +126,15 @@ hr {
     flex-direction:column-reverse;
     margin-top: 60%;
 }
+p{
+    background-color: aliceblue;
+}
+.start{
+    margin-left: 80%;
+}
+.start>button{
+    padding:10px 50px 20px;
+
+    font-size: 30px;
+    border-radius: 5%;
+}
