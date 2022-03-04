@@ -1,7 +1,7 @@
 div {
     border: 1px solid black;
     width: 25px;
-    margin-top: 35px;
+    margin-top: 30px;
     margin-left: 5%;
     font-family: 'Signika Negative', sans-serif;
 }
@@ -116,7 +116,7 @@ hr {
     height: 20px;
     border-color: #020100;
     color: #020100;
-    /* background-color:#53FF45; for green*/
+    /* background-color:#53FF45;  for green*/
     background-color: #A40606;
 
 }
@@ -124,5 +124,17 @@ hr {
 .image {
     display:flex;
     flex-direction:column-reverse;
-    margin-top: 90%;
+    margin-top: 60%;
+}
+p{
+    background-color: aliceblue;
+}
+.start{
+    margin-left: 80%;
+}
+.start>button{
+    padding:10px 50px 20px;
+
+    font-size: 30px;
+    border-radius: 5%;
 }
