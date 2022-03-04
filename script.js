@@ -60,7 +60,7 @@ function lift_main() {
 }
 
 function lift_goto(floor) {
-    light[prev].style.color = "red";
+    light[prev].style.color = "black";
     light[floor].style.color = "green";
 }
 
