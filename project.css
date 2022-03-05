@@ -137,6 +137,7 @@ p{
 }
 .start{
     margin-left: 80%;
+    position: relative;
 }
 .start>button{
     padding:10px 40px 15px;
